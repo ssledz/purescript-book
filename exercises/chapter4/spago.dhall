@@ -12,9 +12,11 @@ You can edit this file as you like.
   , "integers"
   , "maybe"
   , "prelude"
+  , "profunctor"
   , "strings"
   , "test-unit"
   , "tuples"
+  , "unfoldable"
   ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs", "test/**/*.purs" ]
