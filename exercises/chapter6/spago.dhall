@@ -9,6 +9,7 @@ You can edit this file as you like.
   , "effect"
   , "either"
   , "foldable-traversable"
+  , "integers"
   , "lists"
   , "maybe"
   , "newtype"
