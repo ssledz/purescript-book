@@ -19,7 +19,6 @@ main :: Effect Unit
 main =
   runTest do
     runChapterExamples
-    {-  Move this block comment starting point to enable more tests
     suite "Exercises Group - Monads and Applicatives" do
       suite "third" do
         test "No elements"
@@ -96,6 +95,7 @@ main =
           test "1000000 terms of Gregory Series"
             $ Assert.assert "Estimated value of pi not within threshold"
             (abs (estimatePi 1000000 - pi) < 0.000002)
+    {-  Move this block comment starting point to enable more tests
         suite "fibonacci" do
           test "40th Fibonacci number"
             $ Assert.equal 102334155 (fibonacci 40)
